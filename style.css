@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+    margin: 0px auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+body .back img {
+    position: absolute;
+    margin-top: -40px;
+    width: 115%;
+    margin-left: -214px;
+    top: 100px
+}
+
+.left {
+    width: 80%;
+    ;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left div img {
+    height: 50px;
+}
+
+.left div a {
+    transition: all .3s;
+}
+
+.left div a:hover {
+    color: gray;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.right .text {
+    margin-bottom: 20%;
+    margin-top: 10%;
+    text-align: right;
+}
+
+.right .text a {
+    font-size: 30px;
+
+}
+
+.right .book {
+    margin-top: 80%;
+    font-size: 45px;
+}
+
+.book{
+    display:inline;
+    margin-right: 0px;
+
+}
+
+.learn{
+    display: flex;
+    margin-right: 3%;
+    margin-top: -18%;
+}
+
+.LGran{
+    margin-top: 100px;
+}
+
+.learn a{
+    color: yellow;
+    font-size: 25px;
+    
+}
+
+.yourBook{
+    margin-top: 280px;
+}
+
+.yourBook .book span{
+    color: yellow;
+}
